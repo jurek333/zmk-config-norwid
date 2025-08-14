@@ -1,0 +1,11 @@
+file_format: "1"
+id: norwid
+name: norwid
+type: shield
+url: https://github.com/jurek333/zmk-config-norwid
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - norwid_left
+  - norwid_right
