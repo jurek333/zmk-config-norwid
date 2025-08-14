@@ -1,0 +1,16 @@
+if SHIELD_NORWID_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Norwid"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default Y
+
+endif
+
+if SHIELD_NORWID_LEFT || SHIELD_NORWID_RIGHT
+
+config ZMK_SPLIT
+    defult Y
+
+endif
